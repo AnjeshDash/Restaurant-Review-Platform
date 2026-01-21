@@ -34,8 +34,26 @@ services:
     networks:
       - elastic
 
+  keycloak:
+    image: quay.io/keycloak/keycloak:23.0
+    container_name: keycloak
+    ports:
+      - "9090:8080"
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: Anjesh@123
+      KC_DB: dev-file
+    command:
+      - start-dev
+    volumes:
+      - keycloak-data:/opt/keycloak/data
+    networks:
+      - elastic
+
 volumes:
   elasticsearch-data:
+    driver: local
+  keycloak-data:
     driver: local
 
 networks:
