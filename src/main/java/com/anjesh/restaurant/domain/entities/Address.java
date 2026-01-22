@@ -12,7 +12,6 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 @NoArgsConstructor
 @Builder
 public class Address {
-
     @Field(type = FieldType.Keyword)
     private String streetNumber;
 
@@ -27,6 +26,9 @@ public class Address {
 
     @Field(type = FieldType.Keyword)
     private String state;
+
+    @Field(type = FieldType.Keyword)
+    private String postalCode;  // ✅ ADDED
 
     @Field(type = FieldType.Keyword)
     private String country;

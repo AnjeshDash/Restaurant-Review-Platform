@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.elasticsearch.annotations.DateFormat;
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,11 +16,10 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 public class Review {
-
     @Field(type = FieldType.Keyword)
     private String id;
 
-    @Field(type = FieldType.Keyword)
+    @Field(type = FieldType.Text)  // ✅ Changed from Keyword to Text
     private String content;
 
     @Field(type = FieldType.Integer)

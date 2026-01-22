@@ -12,25 +12,24 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 @NoArgsConstructor
 @Builder
 public class OperatingHours {
+    @Field(type = FieldType.Nested)
+    private TimeRange monday;  // ✅ Changed from String to TimeRange
 
     @Field(type = FieldType.Nested)
-    private String monday;
+    private TimeRange tuesday;
 
     @Field(type = FieldType.Nested)
-    private String tuesday;
+    private TimeRange wednesday;
 
     @Field(type = FieldType.Nested)
-    private String wednesday;
+    private TimeRange thursday;
 
     @Field(type = FieldType.Nested)
-    private String thursday;
+    private TimeRange friday;
 
     @Field(type = FieldType.Nested)
-    private String friday;
+    private TimeRange saturday;
 
     @Field(type = FieldType.Nested)
-    private String saturday;
-
-    @Field(type = FieldType.Nested)
-    private String sunday;
+    private TimeRange sunday;
 }
