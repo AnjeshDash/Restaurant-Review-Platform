@@ -7,5 +7,5 @@ import java.util.Optional;
 
 public interface StorageService {
     String store(MultipartFile file, String filename);
-    Optional<Resource> loadingResource(String id);
+    Optional<Resource> loadAsResource(String id);
 }

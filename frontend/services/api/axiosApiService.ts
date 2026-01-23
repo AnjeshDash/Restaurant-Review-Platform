@@ -31,9 +31,9 @@ export class AxiosApiService implements ApiService {
     this.api = axios.create({
       baseURL: baseUrl,
       headers: {
-        "Content-Type": "application/json",
+        // "Content-Type": "application/json", // Let axios set this automatically
       },
-      withCredentials: true,
+      withCredentials: false,
     });
 
     this.api.defaults.xsrfHeaderName = undefined;
@@ -43,27 +43,20 @@ export class AxiosApiService implements ApiService {
   private setupAuthInterceptor() {
     this.api.interceptors.request.use(
       async (config: InternalAxiosRequestConfig) => {
-        const headers = new AxiosHeaders(config.headers);
+        // Log auth state for debugging
+        console.log("Interceptor: checking auth", { 
+            isAuthenticated: this.auth.isAuthenticated, 
+            hasUser: !!this.auth.user,
+            token: this.auth.user?.access_token ? "CHECK PRE" : "NONE"
+        });
 
-        if (this.auth.isAuthenticated) {
-          // Check if token needs refresh
-          const expiresAt = this.auth.user?.expires_at;
-          const isExpiringSoon =
-            expiresAt && expiresAt * 1000 - 60000 < Date.now();
+        // Always check usage of the user object directly if possible, or fallback to this.auth
+        const token = this.auth.user?.access_token;
 
-          if (isExpiringSoon) {
-            try {
-              await this.auth.signinSilent();
-            } catch (error) {
-              console.error("Token refresh failed:", error);
-              // Continue with existing token if refresh fails
-            }
-          }
-
-          headers.setAuthorization(`Bearer ${this.auth.user?.access_token}`);
+        if (token) {
+           config.headers.set('Authorization', `Bearer ${token}`);
         }
-
-        config.headers = headers;
+        
         return config;
       },
       (error: AxiosError) => {
@@ -76,12 +69,12 @@ export class AxiosApiService implements ApiService {
       async (error: AxiosError) => {
         if (error.response?.status === 401) {
           try {
-            await this.auth.signinSilent();
+            const newUser = await this.auth.signinSilent();
             // Retry the original request
-            if (error.config) {
+            if (error.config && newUser) {
               const headers = new AxiosHeaders(error.config.headers);
               headers.setAuthorization(
-                `Bearer ${this.auth.user?.access_token}`,
+                `Bearer ${newUser.access_token}`,
               );
               error.config.headers = headers;
               return this.api.request(error.config);
@@ -189,22 +182,22 @@ export class AxiosApiService implements ApiService {
   }
 
   // Photo endpoint implementation
+  // Photo endpoint implementation
   public async uploadPhoto(file: File, caption?: string): Promise<Photo> {
     const formData = new FormData();
     formData.append("file", file);
+
     if (caption) {
       formData.append("caption", caption);
     }
 
     const response: AxiosResponse<Photo> = await this.api.post(
       "/photos",
-      formData,
-      {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
-      },
+      formData
     );
+
     return response.data;
   }
-}
+
+  }
+

@@ -109,7 +109,7 @@ export default function Home() {
 
   useEffect(() => {
     const doUseEffect = async () => {
-      await searchRestaurants({});
+       await searchRestaurants({});
     };
 
     if (!apiService) {

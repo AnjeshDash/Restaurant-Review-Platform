@@ -68,7 +68,7 @@ public class FileSystemStorageService implements StorageService {
     }
 
     @Override
-    public Optional<Resource> loadingResource(String filename) {
+    public Optional<Resource> loadAsResource(String filename) {
         try {
             Path file = rootLocation.resolve(filename);
 
