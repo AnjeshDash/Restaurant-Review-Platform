@@ -213,7 +213,7 @@ public class RestaurantDataLoaderTest {
         hours.setFriday(weekend);
         hours.setSaturday(weekend);
         hours.setSunday(weekend);
-
+//Created test resources directory
         return hours;
     }
 }
