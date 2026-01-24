@@ -5,6 +5,7 @@ import com.anjesh.restaurant.domain.RestaurantCreateUpdateRequest;
 import com.anjesh.restaurant.domain.entities.Address;
 import com.anjesh.restaurant.domain.entities.Photo;
 import com.anjesh.restaurant.domain.entities.Restaurant;
+import com.anjesh.restaurant.exceptions.RestaurantNotFoundException;
 import com.anjesh.restaurant.repositories.RestaurantRepository;
 import com.anjesh.restaurant.services.GeolocationService;
 import com.anjesh.restaurant.services.RestaurantService;
@@ -16,6 +17,7 @@ import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -67,5 +69,41 @@ public class RestaurantServiceImpl implements RestaurantService {
             return restaurantRepository.findByLocationNear(latitude, longitude, radius, pageable);
         }
         return restaurantRepository.findAll(pageable);
+    }
+
+    @Override
+    public Optional<Restaurant> getRestaurant(String id) {
+        return restaurantRepository.findById(id);
+    }
+
+    @Override
+    public Restaurant updateRestaurant(String id, RestaurantCreateUpdateRequest request) {
+        Restaurant restaurant = getRestaurant(id)
+                .orElseThrow(() -> new RestaurantNotFoundException("Restaurant with ID does not exist:" + id));
+        Geolocation newGeoLocation = geoLocationService.geolocate(
+                request.getAddress()
+        );
+        GeoPoint newGeoPoint = new GeoPoint(newGeoLocation.getLatitude(), newGeoLocation.getLongitude());
+
+        List<String> photoIds = request.getPhotoIds();
+        List<Photo> photos = photoIds.stream().map(photoUrl ->
+                Photo.builder()
+                        .url(photoUrl)
+                        .uploadDate(LocalDateTime.now())
+                        .build()).toList();
+        restaurant.setName(request.getName());
+        restaurant.setCuisineType(request.getCuisineType());
+        restaurant.setContactInformation(request.getContactInformation());
+        restaurant.setAddress(request.getAddress());
+        restaurant.setGeoLocation(newGeoPoint);
+        restaurant.setOperatingHours(request.getOperatingHours());
+        restaurant.setPhotos(photos);
+
+        return restaurantRepository.save(restaurant);
+    }
+
+    @Override
+    public void deleteRestaurant(String id) {
+        restaurantRepository.deleteById(id);
     }
 }

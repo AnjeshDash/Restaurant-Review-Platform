@@ -1,0 +1,205 @@
+﻿{
+    "content":  [
+                    {
+                        "id":  "xY_G8ZsBkkSJGOi3CPWe",
+                        "name":  "La Petite Maison",
+                        "cuisineType":  "French",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "54",
+                                        "streetName":  "Brook Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1K 4HR",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "a9277d1c-5ac9-4580-8341-a2c0ebe2f0c8.png",
+                                           "uploadDate":  "2026-01-25T02:20:46"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "xo_G8ZsBkkSJGOi3CfVm",
+                        "name":  "Raj Pavilion",
+                        "cuisineType":  "Indian",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "27",
+                                        "streetName":  "Brick Lane",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "E1 6PU",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "9b4249c7-1d3d-44bd-b9dd-9654b94d9d0b.png",
+                                           "uploadDate":  "2026-01-25T02:20:46"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "vI_E8ZsBkkSJGOi3QPVJ",
+                        "name":  "sfdaae",
+                        "cuisineType":  "rfdsad",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "123",
+                                        "streetName":  "ergvsfdca",
+                                        "unit":  "vsdca",
+                                        "city":  "eafsd",
+                                        "state":  "rwgefdasd",
+                                        "postalCode":  "875162",
+                                        "country":  "rgfsdacs"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "fc9238ed-8384-40da-af88-59ef9dbff1dd.png",
+                                           "uploadDate":  "2026-01-25T02:18:49"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "vY_E8ZsBkkSJGOi3T_Uw",
+                        "name":  "sfdaae",
+                        "cuisineType":  "rfdsad",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "123",
+                                        "streetName":  "ergvsfdca",
+                                        "unit":  "vsdca",
+                                        "city":  "eafsd",
+                                        "state":  "rwgefdasd",
+                                        "postalCode":  "875162",
+                                        "country":  "rgfsdacs"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "fc9238ed-8384-40da-af88-59ef9dbff1dd.png",
+                                           "uploadDate":  "2026-01-25T02:18:53"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "vo_E8ZsBkkSJGOi3WvVc",
+                        "name":  "sfdaae",
+                        "cuisineType":  "rfdsad",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "123",
+                                        "streetName":  "ergvsfdca",
+                                        "unit":  "vsdca",
+                                        "city":  "eafsd",
+                                        "state":  "rwgefdasd",
+                                        "postalCode":  "875162",
+                                        "country":  "rgfsdacs"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "fc9238ed-8384-40da-af88-59ef9dbff1dd.png",
+                                           "uploadDate":  "2026-01-25T02:18:55"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "v4_E8ZsBkkSJGOi3XfUW",
+                        "name":  "sfdaae",
+                        "cuisineType":  "rfdsad",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "123",
+                                        "streetName":  "ergvsfdca",
+                                        "unit":  "vsdca",
+                                        "city":  "eafsd",
+                                        "state":  "rwgefdasd",
+                                        "postalCode":  "875162",
+                                        "country":  "rgfsdacs"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "fc9238ed-8384-40da-af88-59ef9dbff1dd.png",
+                                           "uploadDate":  "2026-01-25T02:18:56"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "wI_E8ZsBkkSJGOi3YPVm",
+                        "name":  "sfdaae",
+                        "cuisineType":  "rfdsad",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "123",
+                                        "streetName":  "ergvsfdca",
+                                        "unit":  "vsdca",
+                                        "city":  "eafsd",
+                                        "state":  "rwgefdasd",
+                                        "postalCode":  "875162",
+                                        "country":  "rgfsdacs"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "fc9238ed-8384-40da-af88-59ef9dbff1dd.png",
+                                           "uploadDate":  "2026-01-25T02:18:57"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "wY_E8ZsBkkSJGOi3YfU_",
+                        "name":  "sfdaae",
+                        "cuisineType":  "rfdsad",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "123",
+                                        "streetName":  "ergvsfdca",
+                                        "unit":  "vsdca",
+                                        "city":  "eafsd",
+                                        "state":  "rwgefdasd",
+                                        "postalCode":  "875162",
+                                        "country":  "rgfsdacs"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "fc9238ed-8384-40da-af88-59ef9dbff1dd.png",
+                                           "uploadDate":  "2026-01-25T02:18:57"
+                                       }
+                                   ]
+                    }
+                ],
+    "pageable":  {
+                     "pageNumber":  0,
+                     "pageSize":  8,
+                     "sort":  {
+                                  "empty":  true,
+                                  "unsorted":  true,
+                                  "sorted":  false
+                              },
+                     "offset":  0,
+                     "unpaged":  false,
+                     "paged":  true
+                 },
+    "last":  false,
+    "totalPages":  4,
+    "totalElements":  28,
+    "numberOfElements":  8,
+    "first":  true,
+    "size":  8,
+    "number":  0,
+    "sort":  {
+                 "empty":  true,
+                 "unsorted":  true,
+                 "sorted":  false
+             },
+    "empty":  false
+}

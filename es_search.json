@@ -1,0 +1,79 @@
+﻿{
+    "took":  3,
+    "timed_out":  false,
+    "_shards":  {
+                    "total":  1,
+                    "successful":  1,
+                    "skipped":  0,
+                    "failed":  0
+                },
+    "hits":  {
+                 "total":  {
+                               "value":  28,
+                               "relation":  "eq"
+                           },
+                 "max_score":  1.0,
+                 "hits":  [
+                              {
+                                  "_index":  "restaurants",
+                                  "_id":  "xY_G8ZsBkkSJGOi3CPWe",
+                                  "_score":  1.0,
+                                  "_source":  {
+                                                  "_class":  "com.anjesh.restaurant.domain.entities.Restaurant",
+                                                  "name":  "La Petite Maison",
+                                                  "cuisineType":  "French",
+                                                  "contactInformation":  "+44 20 7234 5678",
+                                                  "averageRating":  0.0,
+                                                  "geoLocation":  {
+                                                                      "lat":  51.40481642851507,
+                                                                      "lon":  0.21430209669927058
+                                                                  },
+                                                  "address":  {
+                                                                  "streetNumber":  "54",
+                                                                  "streetName":  "Brook Street",
+                                                                  "city":  "London",
+                                                                  "state":  "Greater London",
+                                                                  "postalCode":  "W1K 4HR",
+                                                                  "country":  "United Kingdom"
+                                                              },
+                                                  "operatingHours":  {
+                                                                         "monday":  {
+                                                                                        "openTime":  "12:00",
+                                                                                        "closeTime":  "22:30"
+                                                                                    },
+                                                                         "tuesday":  {
+                                                                                         "openTime":  "12:00",
+                                                                                         "closeTime":  "22:30"
+                                                                                     },
+                                                                         "wednesday":  {
+                                                                                           "openTime":  "12:00",
+                                                                                           "closeTime":  "22:30"
+                                                                                       },
+                                                                         "thursday":  {
+                                                                                          "openTime":  "12:00",
+                                                                                          "closeTime":  "22:30"
+                                                                                      },
+                                                                         "friday":  {
+                                                                                        "openTime":  "12:00",
+                                                                                        "closeTime":  "23:00"
+                                                                                    },
+                                                                         "saturday":  {
+                                                                                          "openTime":  "12:00",
+                                                                                          "closeTime":  "23:00"
+                                                                                      },
+                                                                         "sunday":  {
+                                                                                        "openTime":  "12:00",
+                                                                                        "closeTime":  "23:00"
+                                                                                    }
+                                                                     },
+                                                  "photos":  [
+                                                                 {
+                                                                     "url":  "a9277d1c-5ac9-4580-8341-a2c0ebe2f0c8.png",
+                                                                     "uploadDate":  "2026-01-25T02:20:46"
+                                                                 }
+                                                             ]
+                                              }
+                              }
+                          ]
+             }
+}

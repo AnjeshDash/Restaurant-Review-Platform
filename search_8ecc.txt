@@ -1,0 +1,645 @@
+﻿{
+    "content":  [
+                    {
+                        "id":  "xY_G8ZsBkkSJGOi3CPWe",
+                        "name":  "La Petite Maison",
+                        "cuisineType":  "French",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "54",
+                                        "streetName":  "Brook Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1K 4HR",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "a9277d1c-5ac9-4580-8341-a2c0ebe2f0c8.png",
+                                           "uploadDate":  "2026-01-25T02:20:46"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "xo_G8ZsBkkSJGOi3CfVm",
+                        "name":  "Raj Pavilion",
+                        "cuisineType":  "Indian",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "27",
+                                        "streetName":  "Brick Lane",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "E1 6PU",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "9b4249c7-1d3d-44bd-b9dd-9654b94d9d0b.png",
+                                           "uploadDate":  "2026-01-25T02:20:46"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "vI_E8ZsBkkSJGOi3QPVJ",
+                        "name":  "sfdaae",
+                        "cuisineType":  "rfdsad",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "123",
+                                        "streetName":  "ergvsfdca",
+                                        "unit":  "vsdca",
+                                        "city":  "eafsd",
+                                        "state":  "rwgefdasd",
+                                        "postalCode":  "875162",
+                                        "country":  "rgfsdacs"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "fc9238ed-8384-40da-af88-59ef9dbff1dd.png",
+                                           "uploadDate":  "2026-01-25T02:18:49"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "vY_E8ZsBkkSJGOi3T_Uw",
+                        "name":  "sfdaae",
+                        "cuisineType":  "rfdsad",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "123",
+                                        "streetName":  "ergvsfdca",
+                                        "unit":  "vsdca",
+                                        "city":  "eafsd",
+                                        "state":  "rwgefdasd",
+                                        "postalCode":  "875162",
+                                        "country":  "rgfsdacs"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "fc9238ed-8384-40da-af88-59ef9dbff1dd.png",
+                                           "uploadDate":  "2026-01-25T02:18:53"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "vo_E8ZsBkkSJGOi3WvVc",
+                        "name":  "sfdaae",
+                        "cuisineType":  "rfdsad",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "123",
+                                        "streetName":  "ergvsfdca",
+                                        "unit":  "vsdca",
+                                        "city":  "eafsd",
+                                        "state":  "rwgefdasd",
+                                        "postalCode":  "875162",
+                                        "country":  "rgfsdacs"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "fc9238ed-8384-40da-af88-59ef9dbff1dd.png",
+                                           "uploadDate":  "2026-01-25T02:18:55"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "v4_E8ZsBkkSJGOi3XfUW",
+                        "name":  "sfdaae",
+                        "cuisineType":  "rfdsad",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "123",
+                                        "streetName":  "ergvsfdca",
+                                        "unit":  "vsdca",
+                                        "city":  "eafsd",
+                                        "state":  "rwgefdasd",
+                                        "postalCode":  "875162",
+                                        "country":  "rgfsdacs"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "fc9238ed-8384-40da-af88-59ef9dbff1dd.png",
+                                           "uploadDate":  "2026-01-25T02:18:56"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "wI_E8ZsBkkSJGOi3YPVm",
+                        "name":  "sfdaae",
+                        "cuisineType":  "rfdsad",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "123",
+                                        "streetName":  "ergvsfdca",
+                                        "unit":  "vsdca",
+                                        "city":  "eafsd",
+                                        "state":  "rwgefdasd",
+                                        "postalCode":  "875162",
+                                        "country":  "rgfsdacs"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "fc9238ed-8384-40da-af88-59ef9dbff1dd.png",
+                                           "uploadDate":  "2026-01-25T02:18:57"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "wY_E8ZsBkkSJGOi3YfU_",
+                        "name":  "sfdaae",
+                        "cuisineType":  "rfdsad",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "123",
+                                        "streetName":  "ergvsfdca",
+                                        "unit":  "vsdca",
+                                        "city":  "eafsd",
+                                        "state":  "rwgefdasd",
+                                        "postalCode":  "875162",
+                                        "country":  "rgfsdacs"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "fc9238ed-8384-40da-af88-59ef9dbff1dd.png",
+                                           "uploadDate":  "2026-01-25T02:18:57"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "wo_E8ZsBkkSJGOi3YfXa",
+                        "name":  "sfdaae",
+                        "cuisineType":  "rfdsad",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "123",
+                                        "streetName":  "ergvsfdca",
+                                        "unit":  "vsdca",
+                                        "city":  "eafsd",
+                                        "state":  "rwgefdasd",
+                                        "postalCode":  "875162",
+                                        "country":  "rgfsdacs"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "fc9238ed-8384-40da-af88-59ef9dbff1dd.png",
+                                           "uploadDate":  "2026-01-25T02:18:57"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "w4_E8ZsBkkSJGOi3YvW8",
+                        "name":  "sfdaae",
+                        "cuisineType":  "rfdsad",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "123",
+                                        "streetName":  "ergvsfdca",
+                                        "unit":  "vsdca",
+                                        "city":  "eafsd",
+                                        "state":  "rwgefdasd",
+                                        "postalCode":  "875162",
+                                        "country":  "rgfsdacs"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "fc9238ed-8384-40da-af88-59ef9dbff1dd.png",
+                                           "uploadDate":  "2026-01-25T02:18:58"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "zY_G8ZsBkkSJGOi3FfUb",
+                        "name":  "The Burger Joint",
+                        "cuisineType":  "American",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "88",
+                                        "streetName":  "Commercial Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "E1 6LY",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "6ee3d23c-8559-4b2a-8ede-8cd3c128cad3.png",
+                                           "uploadDate":  "2026-01-25T02:20:49"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "xI_G8ZsBkkSJGOi3B_Wb",
+                        "name":  "The Golden Dragon",
+                        "cuisineType":  "Chinese",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "12",
+                                        "streetName":  "Gerrard Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1D 5PR",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "dabac1c9-2059-48be-b602-2c489a556c5d.png",
+                                           "uploadDate":  "2026-01-25T02:20:45"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "zo_N8ZsBkkSJGOi3GPXH",
+                        "name":  "The Golden Dragon",
+                        "cuisineType":  "Chinese",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "12",
+                                        "streetName":  "Gerrard Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1D 5PR",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "90344a91-119f-466e-b1fb-160c20028f34.png",
+                                           "uploadDate":  "2026-01-25T02:28:28"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "yI_G8ZsBkkSJGOi3EPUy",
+                        "name":  "The Rustic Olive",
+                        "cuisineType":  "Italian",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "92",
+                                        "streetName":  "Dean Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1D 3SR",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "2f8a444c-519f-45a1-8d99-fb59be4b8440.png",
+                                           "uploadDate":  "2026-01-25T02:20:47"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "y4_G8ZsBkkSJGOi3EfVw",
+                        "name":  "Seoul Kitchen",
+                        "cuisineType":  "Korean",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "71",
+                                        "streetName":  "St John Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "EC1M 4AN",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "213e91d0-a9ff-45e1-b1c8-8d17002f312c.png",
+                                           "uploadDate":  "2026-01-25T02:20:48"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "z4_N8ZsBkkSJGOi3GfUR",
+                        "name":  "La Petite Maison",
+                        "cuisineType":  "French",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "54",
+                                        "streetName":  "Brook Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1K 4HR",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "0ca8ce25-1179-4b75-8679-6d90fa49653f.png",
+                                           "uploadDate":  "2026-01-25T02:28:29"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "x4_G8ZsBkkSJGOi3CvUy",
+                        "name":  "Sushi Master",
+                        "cuisineType":  "Japanese",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "8",
+                                        "streetName":  "Poland Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1F 8PR",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "8ecc10bb-acc4-4f0c-bdfb-5b271285d868.png",
+                                           "uploadDate":  "2026-01-25T02:20:46"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "yo_G8ZsBkkSJGOi3EPXt",
+                        "name":  "The Greek House",
+                        "cuisineType":  "Greek",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "32",
+                                        "streetName":  "Store Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "WC1E 7BS",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "84b2e7c0-f256-4de0-807b-9831c515b865.png",
+                                           "uploadDate":  "2026-01-25T02:20:48"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "yY_G8ZsBkkSJGOi3EPWO",
+                        "name":  "El Toro",
+                        "cuisineType":  "Spanish",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "15",
+                                        "streetName":  "Charlotte Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1T 1RH",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "4c52a422-0989-4dc2-b96b-5b8470d3d920.png",
+                                           "uploadDate":  "2026-01-25T02:20:48"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "zI_G8ZsBkkSJGOi3FPV5",
+                        "name":  "Thai Orchid",
+                        "cuisineType":  "Thai",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "45",
+                                        "streetName":  "Warren Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1T 6AD",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "c6260ed8-4ef2-48ab-8c05-9ace8130b601.png",
+                                           "uploadDate":  "2026-01-25T02:20:49"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "0I_N8ZsBkkSJGOi3GfU3",
+                        "name":  "Raj Pavilion",
+                        "cuisineType":  "Indian",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "27",
+                                        "streetName":  "Brick Lane",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "E1 6PU",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "110858c9-efd9-4db5-859c-4f4fbf80959d.png",
+                                           "uploadDate":  "2026-01-25T02:28:29"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "0Y_N8ZsBkkSJGOi3GfVf",
+                        "name":  "Sushi Master",
+                        "cuisineType":  "Japanese",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "8",
+                                        "streetName":  "Poland Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1F 8PR",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "14a4f72a-ab58-4d7f-9adb-38f29e64c072.png",
+                                           "uploadDate":  "2026-01-25T02:28:29"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "0o_N8ZsBkkSJGOi3GfWN",
+                        "name":  "The Rustic Olive",
+                        "cuisineType":  "Italian",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "92",
+                                        "streetName":  "Dean Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1D 3SR",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "a8538a68-1074-4ad5-9e87-b3293ba0cff2.png",
+                                           "uploadDate":  "2026-01-25T02:28:29"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "04_N8ZsBkkSJGOi3GfW0",
+                        "name":  "El Toro",
+                        "cuisineType":  "Spanish",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "15",
+                                        "streetName":  "Charlotte Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1T 1RH",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "f52c9ae7-214c-4265-9947-b2cb4eba293c.png",
+                                           "uploadDate":  "2026-01-25T02:28:29"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "1I_N8ZsBkkSJGOi3GfXe",
+                        "name":  "The Greek House",
+                        "cuisineType":  "Greek",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "32",
+                                        "streetName":  "Store Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "WC1E 7BS",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "b5b13647-dad8-400f-8b5f-a8d04b5a3803.png",
+                                           "uploadDate":  "2026-01-25T02:28:29"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "1Y_N8ZsBkkSJGOi3GvUJ",
+                        "name":  "Seoul Kitchen",
+                        "cuisineType":  "Korean",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "71",
+                                        "streetName":  "St John Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "EC1M 4AN",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "3e70a0ea-2fe4-446a-a086-4f4b2dea220f.png",
+                                           "uploadDate":  "2026-01-25T02:28:29"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "1o_N8ZsBkkSJGOi3GvU2",
+                        "name":  "Thai Orchid",
+                        "cuisineType":  "Thai",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "45",
+                                        "streetName":  "Warren Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1T 6AD",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "b4bf2da6-73fc-4f37-8a3e-ac8cfdf2cc75.png",
+                                           "uploadDate":  "2026-01-25T02:28:29"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "14_N8ZsBkkSJGOi3GvVf",
+                        "name":  "The Burger Joint",
+                        "cuisineType":  "American",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "88",
+                                        "streetName":  "Commercial Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "E1 6LY",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "b9bb08f0-4fdc-4819-80c8-55de5e7f3d85.png",
+                                           "uploadDate":  "2026-01-25T02:28:29"
+                                       }
+                                   ]
+                    }
+                ],
+    "pageable":  {
+                     "pageNumber":  0,
+                     "pageSize":  100,
+                     "sort":  {
+                                  "empty":  true,
+                                  "unsorted":  true,
+                                  "sorted":  false
+                              },
+                     "offset":  0,
+                     "unpaged":  false,
+                     "paged":  true
+                 },
+    "last":  true,
+    "totalPages":  1,
+    "totalElements":  28,
+    "numberOfElements":  28,
+    "first":  true,
+    "size":  100,
+    "number":  0,
+    "sort":  {
+                 "empty":  true,
+                 "unsorted":  true,
+                 "sorted":  false
+             },
+    "empty":  false
+}

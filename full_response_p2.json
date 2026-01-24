@@ -1,0 +1,205 @@
+﻿{
+    "content":  [
+                    {
+                        "id":  "wo_E8ZsBkkSJGOi3YfXa",
+                        "name":  "sfdaae",
+                        "cuisineType":  "rfdsad",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "123",
+                                        "streetName":  "ergvsfdca",
+                                        "unit":  "vsdca",
+                                        "city":  "eafsd",
+                                        "state":  "rwgefdasd",
+                                        "postalCode":  "875162",
+                                        "country":  "rgfsdacs"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "fc9238ed-8384-40da-af88-59ef9dbff1dd.png",
+                                           "uploadDate":  "2026-01-25T02:18:57"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "w4_E8ZsBkkSJGOi3YvW8",
+                        "name":  "sfdaae",
+                        "cuisineType":  "rfdsad",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "123",
+                                        "streetName":  "ergvsfdca",
+                                        "unit":  "vsdca",
+                                        "city":  "eafsd",
+                                        "state":  "rwgefdasd",
+                                        "postalCode":  "875162",
+                                        "country":  "rgfsdacs"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "fc9238ed-8384-40da-af88-59ef9dbff1dd.png",
+                                           "uploadDate":  "2026-01-25T02:18:58"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "zY_G8ZsBkkSJGOi3FfUb",
+                        "name":  "The Burger Joint",
+                        "cuisineType":  "American",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "88",
+                                        "streetName":  "Commercial Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "E1 6LY",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "6ee3d23c-8559-4b2a-8ede-8cd3c128cad3.png",
+                                           "uploadDate":  "2026-01-25T02:20:49"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "xI_G8ZsBkkSJGOi3B_Wb",
+                        "name":  "The Golden Dragon",
+                        "cuisineType":  "Chinese",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "12",
+                                        "streetName":  "Gerrard Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1D 5PR",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "dabac1c9-2059-48be-b602-2c489a556c5d.png",
+                                           "uploadDate":  "2026-01-25T02:20:45"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "zo_N8ZsBkkSJGOi3GPXH",
+                        "name":  "The Golden Dragon",
+                        "cuisineType":  "Chinese",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "12",
+                                        "streetName":  "Gerrard Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1D 5PR",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "90344a91-119f-466e-b1fb-160c20028f34.png",
+                                           "uploadDate":  "2026-01-25T02:28:28"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "yI_G8ZsBkkSJGOi3EPUy",
+                        "name":  "The Rustic Olive",
+                        "cuisineType":  "Italian",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "92",
+                                        "streetName":  "Dean Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1D 3SR",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "2f8a444c-519f-45a1-8d99-fb59be4b8440.png",
+                                           "uploadDate":  "2026-01-25T02:20:47"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "y4_G8ZsBkkSJGOi3EfVw",
+                        "name":  "Seoul Kitchen",
+                        "cuisineType":  "Korean",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "71",
+                                        "streetName":  "St John Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "EC1M 4AN",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "213e91d0-a9ff-45e1-b1c8-8d17002f312c.png",
+                                           "uploadDate":  "2026-01-25T02:20:48"
+                                       }
+                                   ]
+                    },
+                    {
+                        "id":  "z4_N8ZsBkkSJGOi3GfUR",
+                        "name":  "La Petite Maison",
+                        "cuisineType":  "French",
+                        "averageRating":  "0.0",
+                        "totalReviews":  0,
+                        "address":  {
+                                        "streetNumber":  "54",
+                                        "streetName":  "Brook Street",
+                                        "unit":  null,
+                                        "city":  "London",
+                                        "state":  "Greater London",
+                                        "postalCode":  "W1K 4HR",
+                                        "country":  "United Kingdom"
+                                    },
+                        "photos":  [
+                                       {
+                                           "url":  "0ca8ce25-1179-4b75-8679-6d90fa49653f.png",
+                                           "uploadDate":  "2026-01-25T02:28:29"
+                                       }
+                                   ]
+                    }
+                ],
+    "pageable":  {
+                     "pageNumber":  1,
+                     "pageSize":  8,
+                     "sort":  {
+                                  "empty":  true,
+                                  "unsorted":  true,
+                                  "sorted":  false
+                              },
+                     "offset":  8,
+                     "unpaged":  false,
+                     "paged":  true
+                 },
+    "last":  false,
+    "totalPages":  4,
+    "totalElements":  28,
+    "numberOfElements":  8,
+    "first":  false,
+    "size":  8,
+    "number":  1,
+    "sort":  {
+                 "empty":  true,
+                 "unsorted":  true,
+                 "sorted":  false
+             },
+    "empty":  false
+}
