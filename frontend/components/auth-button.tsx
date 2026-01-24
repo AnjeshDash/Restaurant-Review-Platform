@@ -35,10 +35,7 @@ export default function AuthButton() {
       <DropdownMenu>
         <DropdownMenuTrigger>
           <Avatar>
-            <AvatarImage
-              src="/placeholder.svg?height=32&width=32"
-              alt="User avatar"
-            />
+
             <AvatarFallback>U</AvatarFallback>
           </Avatar>
         </DropdownMenuTrigger>
