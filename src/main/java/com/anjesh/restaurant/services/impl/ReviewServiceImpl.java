@@ -17,10 +17,8 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -64,9 +62,7 @@ public class ReviewServiceImpl implements ReviewService {
 
         Restaurant savedRestaurant = restaurantRepository.save(restaurant);
 
-        return savedRestaurant.getReviews().stream()
-                .filter(r -> reviewId.equals(r.getId()))
-                .findFirst()
+        return getReviewFromRestaurant(reviewId, savedRestaurant)
                 .orElseThrow(()-> new RuntimeException("Error retrieving created review"));
 
     }
@@ -104,6 +100,62 @@ public class ReviewServiceImpl implements ReviewService {
         int end = Math.min((start + pageable.getPageSize()), reviews.size());
 
         return new PageImpl<>(reviews.subList(start, end), pageable, reviews.size());
+
+    }
+
+    @Override
+    public Optional<Review> getReview(String restaurantId, String reviewId) {
+        Restaurant restaurant = getRestaurantOrThrow(restaurantId);
+        return getReviewFromRestaurant(reviewId, restaurant);
+
+    }
+
+    private static Optional<Review> getReviewFromRestaurant(String reviewId, Restaurant restaurant) {
+        return restaurant.getReviews()
+                .stream().filter(r -> reviewId.equals(r.getId()))
+                .findFirst();
+    }
+
+    @Override
+    public Review updateReview(User author, String restaurantId, String reviewId, ReviewCreateUpdateRequest review) {
+        Restaurant restaurant = getRestaurantOrThrow(restaurantId);
+
+        String authorId = author.getId();
+        Review existingReview = getReviewFromRestaurant(reviewId, restaurant)
+                .orElseThrow(() -> new ReviewNotAllowedException("Review does not exist"));
+
+        if(!authorId.equals(existingReview.getWrittenBy().getId())){
+            throw new ReviewNotAllowedException("Cannot update another user's review");
+        }
+
+        if (LocalDateTime.now().isAfter(existingReview.getDatePosted().plusHours(48))){
+            throw new ReviewNotAllowedException("Review can no longer be edited");
+        }
+
+        existingReview.setContent(review.getContent());
+        existingReview.setRating(review.getRating());
+        existingReview.setLastEdited(LocalDateTime.now());
+
+        existingReview.setPhotos(review.getPhotoIds().stream()
+                .map(photoId->Photo.builder()
+                                .url(photoId)
+                                .uploadDate(LocalDateTime.now())
+                                .build()).toList());
+
+
+        List<Review> updatedReviews = restaurant.getReviews().stream()
+                .filter(r -> !reviewId.equals(r.getId()))
+                .collect(Collectors.toList());
+        updatedReviews.add(existingReview);
+
+        restaurant.setReviews(updatedReviews);
+
+        updateRestaurantAverageRating(restaurant);
+
+
+        restaurantRepository.save(restaurant);
+
+        return existingReview;
 
     }
 
